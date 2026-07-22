@@ -57,9 +57,23 @@ window.addEventListener('scroll', () => {
         link.style.color = '';
         if (link.getAttribute('href').slice(1) === current) {
             link.style.color = '#1e40af';
-            link.style.borderBottom = '2px solid #1e40af';
         }
     });
 });
 
-console.log('Portafolio académico cargado correctamente');
+// Funcionalidad del botón CV
+document.addEventListener('DOMContentLoaded', () => {
+    const cvBtn = document.querySelector('.btn-cv');
+    if (cvBtn) {
+        cvBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            // Crear enlace de descarga
+            const link = document.createElement('a');
+            link.href = 'CV_Victor_Hugo_Jimenez_Benitez.pdf';
+            link.download = 'CV_Victor_Hugo_Jimenez_Benitez.pdf';
+            link.click();
+        });
+    }
+});
+
+console.log('✅ Portafolio académico mejorado cargado correctamente');

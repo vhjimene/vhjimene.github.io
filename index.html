@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Víctor Hugo Jiménez Benítez - Portafolio Académico</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,6 +22,13 @@
                 <li><a href="#experiencia">Experiencia</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
+            <div class="nav-right">
+                <a href="#" class="btn-cv" data-i18n="download-cv">📥 CV</a>
+                <div class="language-selector">
+                    <button class="lang-btn active" data-lang="es">ES</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+            </div>
         </div>
     </nav>
 
@@ -26,25 +36,25 @@
     <section id="inicio" class="hero">
         <div class="container">
             <h1>Víctor Hugo Jiménez Benítez</h1>
-            <p class="subtitle">Doctor en Psicología | Psicología Social, Comunitaria y Política</p>
-            <p class="description">Investigación rigurosa sobre cambio social, acción colectiva y participación política</p>
-            <a href="#contacto" class="btn btn-primary">Contactame</a>
+            <p class="subtitle" data-i18n="hero-subtitle">Doctor en Psicología | Psicología Social, Comunitaria y Política</p>
+            <p class="description" data-i18n="hero-description">Investigación rigurosa sobre cambio social, acción colectiva y participación política</p>
+            <a href="#contacto" class="btn btn-primary" data-i18n="contact-btn">Contactame</a>
         </div>
     </section>
 
     <!-- Perfil Académico -->
     <section id="perfil" class="profile">
         <div class="container">
-            <h2>Perfil Académico</h2>
+            <h2 data-i18n="academic-profile">Perfil Académico</h2>
             <div class="profile-grid">
                 <div class="profile-main">
-                    <p>
+                    <p data-i18n="profile-text-1">
                         Doctor en Psicología con especialización en psicología social, comunitaria y política. 
                         Su investigación examina cómo los factores estructurales, institucionales, comunitarios 
                         y culturales influyen en los procesos psicológicos que sustentan el cambio social, 
                         la acción colectiva, la participación política y el bienestar psicológico y social.
                     </p>
-                    <p>
+                    <p data-i18n="profile-text-2">
                         Su agenda integra teoría psicosocial, métodos cuantitativos avanzados y enfoques 
                         cualitativos para comprender fenómenos sociales complejos con especial énfasis en 
                         diseños longitudinales, modelos multinivel, ecuaciones estructurales e inferencia causal.
@@ -52,18 +62,18 @@
                 </div>
 
                 <div class="credentials">
-                    <h3>Credenciales</h3>
+                    <h3 data-i18n="credentials">Credenciales</h3>
                     <div class="credential-item">
-                        <strong>Doctor en Psicología</strong>
+                        <strong data-i18n="phd">Doctor en Psicología</strong>
                         <p>Pontificia Universidad Católica de Chile (2025)</p>
-                        <p class="small">Especialización en Psicología Social y Política</p>
+                        <p class="small" data-i18n="phd-spec">Especialización en Psicología Social y Política</p>
                     </div>
                     <div class="credential-item">
-                        <strong>Magíster en Ciencias Sociales Aplicadas</strong>
+                        <strong data-i18n="masters">Magíster en Ciencias Sociales Aplicadas</strong>
                         <p>Universidad de Tarapacá (2018)</p>
                     </div>
                     <div class="credential-item">
-                        <strong>Psicólogo y Licenciado en Psicología</strong>
+                        <strong data-i18n="bachelor">Psicólogo y Licenciado en Psicología</strong>
                         <p>Universidad de Tarapacá (2013)</p>
                     </div>
                 </div>
@@ -74,23 +84,23 @@
     <!-- Líneas de Investigación -->
     <section id="investigacion" class="research-areas">
         <div class="container">
-            <h2>Líneas de Investigación</h2>
+            <h2 data-i18n="research-lines">Líneas de Investigación</h2>
             <div class="research-grid">
                 <div class="research-card">
-                    <h3>Psicología Social, Política y Comunitaria</h3>
-                    <p>Análisis de procesos psicosociales en contextos políticos y comunitarios complejos.</p>
+                    <h3 data-i18n="research-1-title">Psicología Social, Política y Comunitaria</h3>
+                    <p data-i18n="research-1-desc">Análisis de procesos psicosociales en contextos políticos y comunitarios complejos.</p>
                 </div>
                 <div class="research-card">
-                    <h3>Cambio Social y Acción Colectiva</h3>
-                    <p>Mecanismos psicológicos que sustentan la participación en movimientos sociales y la acción colectiva.</p>
+                    <h3 data-i18n="research-2-title">Cambio Social y Acción Colectiva</h3>
+                    <p data-i18n="research-2-desc">Mecanismos psicológicos que sustentan la participación en movimientos sociales y la acción colectiva.</p>
                 </div>
                 <div class="research-card">
-                    <h3>Participación Política</h3>
-                    <p>Determinantes psicológicos de la participación electoral y formas de involucramiento político.</p>
+                    <h3 data-i18n="research-3-title">Participación Política</h3>
+                    <p data-i18n="research-3-desc">Determinantes psicológicos de la participación electoral y formas de involucramiento político.</p>
                 </div>
                 <div class="research-card">
-                    <h3>Bienestar Psicosocial</h3>
-                    <p>Determinantes sociales, institucionales y comunitarios del bienestar psicológico y social.</p>
+                    <h3 data-i18n="research-4-title">Bienestar Psicosocial</h3>
+                    <p data-i18n="research-4-desc">Determinantes sociales, institucionales y comunitarios del bienestar psicológico y social.</p>
                 </div>
             </div>
         </div>
@@ -99,43 +109,43 @@
     <!-- Publicaciones Científicas -->
     <section id="publicaciones" class="publications">
         <div class="container">
-            <h2>Publicaciones Científicas</h2>
+            <h2 data-i18n="scientific-publications">Publicaciones Científicas</h2>
             
-            <h3 class="pub-subtitle">Artículos Publicados</h3>
+            <h3 class="pub-subtitle" data-i18n="published-articles">Artículos Publicados</h3>
             <div class="publications-list">
                 <div class="publication-item">
                     <p class="pub-title">From activism to the ballot box: The mediating role of social change beliefs over time</p>
                     <p class="pub-authors">Jiménez-Benítez, V., González, R., & Çakal, H. (2025)</p>
                     <p class="pub-journal">Frontiers in Social Psychology, 3, 1440638</p>
-                    <a href="https://doi.org/10.3389/frsps.2025.1440638" target="_blank" class="pub-link">Ver publicación →</a>
+                    <a href="https://doi.org/10.3389/frsps.2025.1440638" target="_blank" class="pub-link" data-i18n="view-publication">Ver publicación →</a>
                 </div>
 
                 <div class="publication-item">
                     <p class="pub-title">Historical narratives and collective action: Young people's accounts of the October 2019 protests in Chile</p>
                     <p class="pub-authors">Figueroa-Grenett, C., Jiménez-Benítez, V., Jaque-Morales, F., Berríos, L., & Dufraix, I. (2026)</p>
                     <p class="pub-journal">Journal of Community & Applied Social Psychology, 36(1), e70205</p>
-                    <a href="https://doi.org/10.1002/casp.70205" target="_blank" class="pub-link">Ver publicación →</a>
+                    <a href="https://doi.org/10.1002/casp.70205" target="_blank" class="pub-link" data-i18n="view-publication">Ver publicación →</a>
                 </div>
 
                 <div class="publication-item">
                     <p class="pub-title">Ideology and political cynicism: Effects of authoritarianism and social dominance on perceptions about the political system in 11 Ibero-American countries</p>
                     <p class="pub-authors">Espinosa, A., Pacheco, M., Janos, E., et al. (2022)</p>
                     <p class="pub-journal">Revista Interamericana de Psicología/Interamerican Journal of Psychology, 56(2), e1465</p>
-                    <a href="https://doi.org/10.30849/ripijp.v56i2.1465" target="_blank" class="pub-link">Ver publicación →</a>
+                    <a href="https://doi.org/10.30849/ripijp.v56i2.1465" target="_blank" class="pub-link" data-i18n="view-publication">Ver publicación →</a>
                 </div>
 
                 <div class="publication-item">
                     <p class="pub-title">El rol mediador de la eficacia grupal y la rabia hacia la desigualdad en la relación identificación social y acciones colectivas</p>
                     <p class="pub-authors">Jiménez-Benítez, V., & Figueroa-Grenett, C. (2022)</p>
                     <p class="pub-journal">PSOCIAL, 8(1)</p>
-                    <a href="https://www.redalyc.org/articulo.oa?id=672371222007" target="_blank" class="pub-link">Ver publicación →</a>
+                    <a href="https://www.redalyc.org/articulo.oa?id=672371222007" target="_blank" class="pub-link" data-i18n="view-publication">Ver publicación →</a>
                 </div>
 
                 <div class="publication-item">
                     <p class="pub-title">Ideological influences on intergroup attitudes in the context of the Hague Court boundary dispute between Peru and Chile</p>
                     <p class="pub-authors">Espinosa, A., Jiménez-Benítez, V., Valencia-Moya, J., Romero, J. C., & Sandoval, S. A. M. (2022)</p>
                     <p class="pub-journal">Revista CES Psicología, 15(1), 119–140</p>
-                    <a href="https://doi.org/10.21615/cesp.5745" target="_blank" class="pub-link">Ver publicación →</a>
+                    <a href="https://doi.org/10.21615/cesp.5745" target="_blank" class="pub-link" data-i18n="view-publication">Ver publicación →</a>
                 </div>
 
                 <div class="publication-item">
@@ -148,7 +158,7 @@
                     <p class="pub-title">From the struggle for education to the transformation of society: Challenges and hopes in the Chile of the 21st century</p>
                     <p class="pub-authors">Zapata-Sepúlveda, P., Jiménez-Benítez, V., & Concha-Astorga, D. (2013)</p>
                     <p class="pub-journal">Cultural Studies ↔ Critical Methodologies, 13(6), 497–503</p>
-                    <a href="https://doi.org/10.1177/1532708613503814" target="_blank" class="pub-link">Ver publicación →</a>
+                    <a href="https://doi.org/10.1177/1532708613503814" target="_blank" class="pub-link" data-i18n="view-publication">Ver publicación →</a>
                 </div>
             </div>
         </div>
@@ -157,32 +167,32 @@
     <!-- Competencias Metodológicas -->
     <section id="competencias" class="skills">
         <div class="container">
-            <h2>Competencias Metodológicas</h2>
+            <h2 data-i18n="methodological-skills">Competencias Metodológicas</h2>
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h3>Métodos Cuantitativos</h3>
+                    <h3 data-i18n="quantitative-methods">Métodos Cuantitativos</h3>
                     <ul>
-                        <li>Modelos de ecuaciones estructurales</li>
-                        <li>Modelos multinivel</li>
-                        <li>Modelos longitudinales de panel</li>
-                        <li>Modelos de crecimiento latente</li>
-                        <li>Psicometría y validación de instrumentos</li>
-                        <li>Inferencia causal con datos observacionales</li>
-                        <li>Análisis de encuestas complejas</li>
+                        <li data-i18n="skill-1">Modelos de ecuaciones estructurales</li>
+                        <li data-i18n="skill-2">Modelos multinivel</li>
+                        <li data-i18n="skill-3">Modelos longitudinales de panel</li>
+                        <li data-i18n="skill-4">Modelos de crecimiento latente</li>
+                        <li data-i18n="skill-5">Psicometría y validación de instrumentos</li>
+                        <li data-i18n="skill-6">Inferencia causal con datos observacionales</li>
+                        <li data-i18n="skill-7">Análisis de encuestas complejas</li>
                     </ul>
                 </div>
 
                 <div class="skill-category">
-                    <h3>Métodos Cualitativos y Mixtos</h3>
+                    <h3 data-i18n="qualitative-methods">Métodos Cualitativos y Mixtos</h3>
                     <ul>
-                        <li>Análisis temático</li>
-                        <li>Análisis de contenido</li>
-                        <li>Integración de métodos cuantitativos y cualitativos</li>
+                        <li data-i18n="skill-8">Análisis temático</li>
+                        <li data-i18n="skill-9">Análisis de contenido</li>
+                        <li data-i18n="skill-10">Integración de métodos cuantitativos y cualitativos</li>
                     </ul>
                 </div>
 
                 <div class="skill-category">
-                    <h3>Software Especializado</h3>
+                    <h3 data-i18n="specialized-software">Software Especializado</h3>
                     <ul>
                         <li>R</li>
                         <li>Mplus</li>
@@ -198,86 +208,86 @@
     <!-- Experiencia Profesional -->
     <section id="experiencia" class="experience">
         <div class="container">
-            <h2>Experiencia Profesional</h2>
+            <h2 data-i18n="professional-experience">Experiencia Profesional</h2>
             
-            <h3 class="exp-subtitle">Gestión Pública</h3>
+            <h3 class="exp-subtitle" data-i18n="public-management">Gestión Pública</h3>
             <div class="experience-item">
                 <div class="exp-header">
-                    <h4>Jefe de Gabinete</h4>
+                    <h4 data-i18n="head-of-office">Jefe de Gabinete</h4>
                     <p class="exp-institution">Delegación Presidencial Regional de Arica y Parinacota</p>
                     <p class="exp-date">2025–2026</p>
                 </div>
                 <ul class="exp-list">
-                    <li>Coordinación interinstitucional para la implementación de políticas públicas regionales</li>
-                    <li>Articulación entre organismos públicos, municipios y actores territoriales</li>
-                    <li>Asesoría estratégica en gestión pública y análisis de antecedentes</li>
+                    <li data-i18n="exp-1-1">Coordinación interinstitucional para la implementación de políticas públicas regionales</li>
+                    <li data-i18n="exp-1-2">Articulación entre organismos públicos, municipios y actores territoriales</li>
+                    <li data-i18n="exp-1-3">Asesoría estratégica en gestión pública y análisis de antecedentes</li>
                 </ul>
             </div>
 
             <div class="experience-item">
                 <div class="exp-header">
-                    <h4>Jefe de Gabinete</h4>
-                    <p class="exp-institution">Secretaría Regional Ministerial de Gobierno</p>
+                    <h4 data-i18n="head-of-office">Jefe de Gabinete</h4>
+                    <p class="exp-institution" data-i18n="regional-ministry">Secretaría Regional Ministerial de Gobierno</p>
                     <p class="exp-date">2024–2025</p>
                 </div>
                 <ul class="exp-list">
-                    <li>Coordinación de programas de participación ciudadana</li>
-                    <li>Gestión de relaciones interinstitucionales</li>
-                    <li>Apoyo técnico en procesos de articulación territorial</li>
+                    <li data-i18n="exp-2-1">Coordinación de programas de participación ciudadana</li>
+                    <li data-i18n="exp-2-2">Gestión de relaciones interinstitucionales</li>
+                    <li data-i18n="exp-2-3">Apoyo técnico en procesos de articulación territorial</li>
                 </ul>
             </div>
 
-            <h3 class="exp-subtitle">Docencia Académica</h3>
+            <h3 class="exp-subtitle" data-i18n="academic-teaching">Docencia Académica</h3>
             <div class="experience-item">
                 <div class="exp-header">
-                    <h4>Docente</h4>
+                    <h4 data-i18n="professor">Docente</h4>
                     <p class="exp-institution">Universidad Santo Tomás, Escuela de Psicología</p>
                     <p class="exp-date">2013–2017; 2024–presente</p>
                 </div>
                 <ul class="exp-list">
-                    <li>Seminarios de Investigación (2024-2026)</li>
-                    <li>Análisis de Datos Cuantitativos</li>
-                    <li>Problemas Sociales Contemporáneos</li>
-                    <li>Pensamiento Social Moderno</li>
+                    <li data-i18n="exp-3-1">Seminarios de Investigación (2024-2026)</li>
+                    <li data-i18n="exp-3-2">Análisis de Datos Cuantitativos</li>
+                    <li data-i18n="exp-3-3">Problemas Sociales Contemporáneos</li>
+                    <li data-i18n="exp-3-4">Pensamiento Social Moderno</li>
                 </ul>
             </div>
 
             <div class="experience-item">
                 <div class="exp-header">
-                    <h4>Docente</h4>
+                    <h4 data-i18n="professor">Docente</h4>
                     <p class="exp-institution">Universidad de Santiago de Chile, Escuela de Psicología</p>
                     <p class="exp-date">2023</p>
                 </div>
                 <ul class="exp-list">
-                    <li>Metodología Cuantitativa II</li>
-                    <li>Fundamentos de Investigación en Psicología</li>
+                    <li data-i18n="exp-4-1">Metodología Cuantitativa II</li>
+                    <li data-i18n="exp-4-2">Fundamentos de Investigación en Psicología</li>
                 </ul>
             </div>
 
             <div class="experience-item">
                 <div class="exp-header">
-                    <h4>Docente</h4>
+                    <h4 data-i18n="professor">Docente</h4>
                     <p class="exp-institution">Universidad de Tarapacá, Escuela de Psicología</p>
                     <p class="exp-date">2013–2017</p>
                 </div>
                 <ul class="exp-list">
-                    <li>Psicología Social I y II</li>
-                    <li>Intervención Comunitaria</li>
-                    <li>Metodología Cualitativa</li>
+                    <li data-i18n="exp-5-1">Psicología Social I y II</li>
+                    <li data-i18n="exp-5-2">Intervención Comunitaria</li>
+                    <li data-i18n="exp-5-3">Metodología Cualitativa</li>
                 </ul>
             </div>
 
-            <h3 class="exp-subtitle">Investigación</h3>
+            <h3 class="exp-subtitle" data-i18n="research">Investigación</h3>
             <div class="experience-item">
                 <div class="exp-header">
-                    <h4>Investigación Doctoral</h4>
+                    <h4 data-i18n="doctoral-research">Investigación Doctoral</h4>
                     <p class="exp-institution">Pontificia Universidad Católica de Chile</p>
                     <p class="exp-date">2019–2025</p>
                 </div>
                 <ul class="exp-list">
-                    <li>Beca Doctorado Nacional ANID (2019–2023)</li>
-                    <li>Desarrollo de agenda de investigación en psicología social y política</li>
-                    <li>Diseño y ejecución de estudios longitudinales</li>
+                    <li data-i18n="exp-6-1">Beca Doctorado Nacional ANID (2019–2023)</li>
+                    <li data-i18n="exp-6-2">Desarrollo de agenda de investigación en psicología social y política</li>
+                    <li data-i18n="exp-6-3">Diseño y ejecución de estudios longitudinales</li>
                 </ul>
             </div>
         </div>
@@ -286,7 +296,7 @@
     <!-- Colaboración Internacional -->
     <section id="colaboracion" class="networks">
         <div class="container">
-            <h2>Colaboración Internacional</h2>
+            <h2 data-i18n="international-collaboration">Colaboración Internacional</h2>
             <div class="networks-grid">
                 <div class="network-item">
                     <h4>Chile</h4>
@@ -298,7 +308,7 @@
                     </ul>
                 </div>
                 <div class="network-item">
-                    <h4>Latinoamérica</h4>
+                    <h4 data-i18n="latin-america">Latinoamérica</h4>
                     <ul>
                         <li>Universidad Andina Simón Bolívar, Ecuador</li>
                         <li>Universidad Politécnica Salesiana, Ecuador</li>
@@ -307,7 +317,7 @@
                     </ul>
                 </div>
                 <div class="network-item">
-                    <h4>Europa</h4>
+                    <h4 data-i18n="europe">Europa</h4>
                     <ul>
                         <li>University of Groningen, Netherlands</li>
                         <li>Jagiellonian University, Poland</li>
@@ -321,8 +331,8 @@
     <!-- Contacto -->
     <section id="contacto" class="contact">
         <div class="container">
-            <h2>Ponte en contacto</h2>
-            <p>Interesado en colaboraciones de investigación, consultoría o conversaciones sobre psicología social y política.</p>
+            <h2 data-i18n="get-in-touch">Ponte en contacto</h2>
+            <p data-i18n="contact-description">Interesado en colaboraciones de investigación, consultoría o conversaciones sobre psicología social y política.</p>
             
             <div class="contact-links">
                 <a href="mailto:vhjimene@gmail.com" class="contact-link">
@@ -356,6 +366,7 @@
         </div>
     </footer>
 
+    <script src="translations.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
