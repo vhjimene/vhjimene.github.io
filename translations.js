@@ -2,7 +2,7 @@ const translations = {
     es: {
         'download-cv': '📥 CV',
         'hero-subtitle': 'Doctor en Psicología | Psicología Social, Comunitaria y Política',
-        'hero-description': 'Investigación rigurosa sobre cambio social, acción colectiva y participación política',
+        'hero-description': 'Investigación sobre cambio social, acción colectiva y participación política',
         'contact-btn': 'Contactame',
         'academic-profile': 'Perfil Académico',
         'profile-text-1': 'Doctor en Psicología con línea de investigación en psicología social, comunitaria y política. Su investigación examina cómo los factores estructurales, institucionales, comunitarios y culturales influyen en los procesos psicológicos que sustentan el cambio social, la acción colectiva, la participación política y el bienestar psicológico y social.',
