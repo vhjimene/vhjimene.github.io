@@ -37,10 +37,6 @@ const translations = {
         "hero-lines":
             "Cambio social · Acción colectiva · Participación política · Bienestar · Métodos mixtos",
 
-        "hero-button":
-            "Conocer mi trabajo",
-
-
         /* Perfil académico */
 
         "profile-title":
