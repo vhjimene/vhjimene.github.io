@@ -362,10 +362,6 @@ const translations = {
         "hero-lines":
             "Social change · Collective action · Political participation · Well-being · Mixed methods",
 
-        "hero-button":
-            "Explore my work",
-
-
         /* Academic profile */
 
         "profile-title":
