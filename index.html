@@ -48,38 +48,60 @@
 
             <a href="#inicio"
                 class="logo"
-                aria-label="Ir al inicio">
+                aria-label="Ir al inicio"
+                data-i18n-aria-label="logo-aria">
                 VHJB
             </a>
 
             <ul class="nav-links">
 
                 <li>
-                    <a href="#inicio">Inicio</a>
+                    <a href="#inicio"
+                        data-i18n="nav-home">
+                        Inicio
+                    </a>
                 </li>
 
                 <li>
-                    <a href="#perfil">Perfil</a>
+                    <a href="#perfil"
+                        data-i18n="nav-profile">
+                        Perfil
+                    </a>
                 </li>
 
                 <li>
-                    <a href="#publicaciones">Publicaciones</a>
+                    <a href="#publicaciones"
+                        data-i18n="nav-publications">
+                        Publicaciones
+                    </a>
                 </li>
 
                 <li>
-                    <a href="#trayectoria">Trayectoria</a>
+                    <a href="#trayectoria"
+                        data-i18n="nav-career">
+                        Trayectoria
+                    </a>
                 </li>
 
                 <li>
-                    <a href="#docencia">Docencia</a>
+                    <a href="#docencia"
+                        data-i18n="nav-teaching">
+                        Docencia
+                    </a>
                 </li>
 
                 <li>
-                    <a href="#servicio-publico">Servicio público</a>
+                    <a href="#servicio-publico"
+                        data-i18n="nav-public-service">
+                        Servicio público
+                    </a>
                 </li>
 
                 <li>
-                    <a href="#contacto">Contacto</a>
+                    <a href="#contacto"
+                        data-i18n="nav-contact">
+                        Contacto
+                    </a>
                 </li>
 
             </ul>
@@ -89,9 +111,32 @@
                 <a href="CV26---azul-oxford.pdf"
                     class="btn-cv"
                     target="_blank"
-                    rel="noopener noreferrer">
+                    rel="noopener noreferrer"
+                    data-i18n="download-cv">
                     CV
                 </a>
+
+                <div class="language-selector"
+                    aria-label="Selector de idioma"
+                    data-i18n-aria-label="language-selector-aria">
+
+                    <button
+                        type="button"
+                        class="lang-btn active"
+                        data-lang="es"
+                        aria-pressed="true">
+                        ES
+                    </button>
+
+                    <button
+                        type="button"
+                        class="lang-btn"
+                        data-lang="en"
+                        aria-pressed="false">
+                        EN
+                    </button>
+
+                </div>
 
             </div>
 
@@ -113,25 +158,30 @@
                 Víctor Hugo Jiménez Benítez
             </h1>
 
-            <p class="subtitle">
+            <p class="subtitle"
+                data-i18n="hero-degree">
                 Doctor en Psicología
             </p>
 
-            <p class="description">
+            <p class="description"
+                data-i18n="hero-role">
                 Investigador en Psicología Social, Política y Comunitaria
             </p>
 
-            <p class="description">
+            <p class="description"
+                data-i18n="hero-affiliation">
                 Universidad Santo Tomás, Chile
             </p>
 
-            <p class="description">
+            <p class="description"
+                data-i18n="hero-lines">
                 Cambio social · Acción colectiva · Participación política ·
                 Bienestar · Métodos mixtos
             </p>
 
             <a href="#perfil"
-                class="btn btn-primary">
+                class="btn btn-primary"
+                data-i18n="hero-button">
                 Conocer mi trabajo
             </a>
 
@@ -149,7 +199,7 @@
 
         <div class="container">
 
-            <h2>
+            <h2 data-i18n="profile-title">
                 Perfil académico
             </h2>
 
@@ -157,7 +207,7 @@
 
                 <div class="profile-main">
 
-                    <p>
+                    <p data-i18n="profile-text-1">
                         Mi investigación analiza cómo las condiciones sociales,
                         especialmente la inseguridad, la violencia y la
                         desigualdad, influyen en las emociones, las cogniciones
@@ -166,7 +216,7 @@
                         cohesión social.
                     </p>
 
-                    <p>
+                    <p data-i18n="profile-text-2">
                         Combino la psicología social, política y comunitaria
                         con métodos cuantitativos avanzados para producir
                         evidencia reproducible que contribuya al desarrollo
@@ -179,17 +229,18 @@
 
                 <aside class="credentials">
 
-                    <h3>
+                    <h3 data-i18n="research-lines-title">
                         Líneas de investigación
                     </h3>
 
                     <div class="credential-item">
 
-                        <strong>
+                        <strong data-i18n="research-line-1-title">
                             Cambio social
                         </strong>
 
-                        <p class="small">
+                        <p class="small"
+                            data-i18n="research-line-1-text">
                             Creencias, emociones y procesos asociados con las
                             transformaciones sociales.
                         </p>
@@ -198,11 +249,12 @@
 
                     <div class="credential-item">
 
-                        <strong>
+                        <strong data-i18n="research-line-2-title">
                             Acción colectiva
                         </strong>
 
-                        <p class="small">
+                        <p class="small"
+                            data-i18n="research-line-2-text">
                             Identidad, eficacia, emociones y participación
                             colectiva.
                         </p>
@@ -211,11 +263,12 @@
 
                     <div class="credential-item">
 
-                        <strong>
+                        <strong data-i18n="research-line-3-title">
                             Participación política
                         </strong>
 
-                        <p class="small">
+                        <p class="small"
+                            data-i18n="research-line-3-text">
                             Activismo, participación electoral y compromiso
                             político.
                         </p>
@@ -224,11 +277,12 @@
 
                     <div class="credential-item">
 
-                        <strong>
+                        <strong data-i18n="research-line-4-title">
                             Bienestar
                         </strong>
 
-                        <p class="small">
+                        <p class="small"
+                            data-i18n="research-line-4-text">
                             Condiciones sociales y comunitarias vinculadas con
                             el bienestar psicológico y social.
                         </p>
@@ -237,11 +291,12 @@
 
                     <div class="credential-item">
 
-                        <strong>
+                        <strong data-i18n="research-line-5-title">
                             Métodos mixtos
                         </strong>
 
-                        <p class="small">
+                        <p class="small"
+                            data-i18n="research-line-5-text">
                             Integración de métodos cuantitativos y cualitativos.
                         </p>
 
@@ -265,7 +320,7 @@
 
         <div class="container">
 
-            <h2>
+            <h2 data-i18n="indicators-title">
                 Indicadores académicos
             </h2>
 
@@ -275,7 +330,7 @@
 
                     <h3>7</h3>
 
-                    <p>
+                    <p data-i18n="indicator-publications">
                         Publicaciones científicas
                     </p>
 
@@ -285,7 +340,7 @@
 
                     <h3>2</h3>
 
-                    <p>
+                    <p data-i18n="indicator-fondecyt">
                         Proyectos FONDECYT Regular
                     </p>
 
@@ -295,7 +350,7 @@
 
                     <h3>3</h3>
 
-                    <p>
+                    <p data-i18n="indicator-scholarships">
                         Becas de posgrado
                     </p>
 
@@ -303,9 +358,11 @@
 
                 <div class="research-card">
 
-                    <h3>4 países</h3>
+                    <h3 data-i18n="indicator-countries-number">
+                        4 países
+                    </h3>
 
-                    <p>
+                    <p data-i18n="indicator-countries">
                         Estudios en América Latina
                     </p>
 
@@ -313,9 +370,11 @@
 
                 <div class="research-card">
 
-                    <h3>+10 años</h3>
+                    <h3 data-i18n="indicator-years-number">
+                        +10 años
+                    </h3>
 
-                    <p>
+                    <p data-i18n="indicator-years">
                         Investigación científica y docencia universitaria
                     </p>
 
@@ -323,9 +382,11 @@
 
                 <div class="research-card">
 
-                    <h3>Servicio público</h3>
+                    <h3 data-i18n="indicator-public-service-title">
+                        Servicio público
+                    </h3>
 
-                    <p>
+                    <p data-i18n="indicator-public-service">
                         Experiencia en gestión regional y territorial
                     </p>
 
@@ -347,18 +408,20 @@
 
         <div class="container">
 
-            <h2>
+            <h2 data-i18n="publications-title">
                 Publicaciones destacadas
             </h2>
 
-            <p>
+            <p data-i18n="publications-intro">
                 Una selección de artículos que reflejan las principales
                 líneas de investigación desarrolladas durante los últimos
                 años.
             </p>
 
             <p>
-                Para consultar otras publicaciones, véase
+                <span data-i18n="publications-scholar-prefix">
+                    Para consultar otras publicaciones, véase
+                </span>
 
                 <a href="https://scholar.google.com/citations?user=S_mA-D0AAAAJ"
                     target="_blank"
@@ -368,7 +431,8 @@
             </p>
 
 
-            <h3 class="pub-subtitle">
+            <h3 class="pub-subtitle"
+                data-i18n="publication-area-1">
                 Cambio social, participación política y acción colectiva
             </h3>
 
@@ -386,13 +450,14 @@
                         Frontiers in Social Psychology · 2025
                     </p>
 
-                    <p>
+                    <p data-i18n="publication-1-description">
                         Estudio longitudinal sobre el papel mediador de las
                         creencias de cambio social en la relación entre la
                         acción colectiva y la participación electoral.
                     </p>
 
-                    <p class="pub-authors">
+                    <p class="pub-authors"
+                        data-i18n="publication-1-keywords">
                         Psicología política · Acción colectiva · Cambio social ·
                         Estudios longitudinales
                     </p>
@@ -400,7 +465,8 @@
                     <a href="https://doi.org/10.3389/frsps.2025.1440638"
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="pub-link">
+                        class="pub-link"
+                        data-i18n="view-publication">
                         Ver publicación →
                     </a>
 
@@ -414,18 +480,20 @@
                         Evidence from Four Latin American Countries
                     </p>
 
-                    <p class="pub-journal">
+                    <p class="pub-journal"
+                        data-i18n="publication-2-status">
                         Political Psychology · En revisión (R&amp;R)
                     </p>
 
-                    <p>
+                    <p data-i18n="publication-2-description">
                         Estudio multinacional realizado en Chile, Colombia,
                         Ecuador y Perú que examina la acción colectiva mediante
                         procesos emocionales, identitarios y de eficacia
                         participativa.
                     </p>
 
-                    <p class="pub-authors">
+                    <p class="pub-authors"
+                        data-i18n="publication-2-keywords">
                         Psicología política · Comparación internacional ·
                         Modelos de ecuaciones estructurales
                     </p>
@@ -435,7 +503,8 @@
             </div>
 
 
-            <h3 class="pub-subtitle">
+            <h3 class="pub-subtitle"
+                data-i18n="publication-area-2">
                 Psicología comunitaria y procesos sociales
             </h3>
 
@@ -455,14 +524,15 @@
                         2026
                     </p>
 
-                    <p>
+                    <p data-i18n="publication-3-description">
                         Investigación cualitativa sobre el papel de las
                         narrativas históricas en el compromiso colectivo y la
                         participación política de jóvenes durante las
                         movilizaciones iniciadas en Chile en 2019.
                     </p>
 
-                    <p class="pub-authors">
+                    <p class="pub-authors"
+                        data-i18n="publication-3-keywords">
                         Psicología comunitaria · Narrativas históricas ·
                         Acción colectiva
                     </p>
@@ -470,7 +540,8 @@
                     <a href="https://doi.org/10.1002/casp.70205"
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="pub-link">
+                        class="pub-link"
+                        data-i18n="view-publication">
                         Ver publicación →
                     </a>
 
@@ -483,11 +554,12 @@
                         Sense of Community in Migrant Populations
                     </p>
 
-                    <p class="pub-journal">
+                    <p class="pub-journal"
+                        data-i18n="publication-4-status">
                         Manuscrito en preparación
                     </p>
 
-                    <p>
+                    <p data-i18n="publication-4-description">
                         Estudio sobre el papel del sentido de comunidad como
                         mecanismo de integración, bienestar y cohesión social
                         en población migrante residente en Chile.
@@ -496,7 +568,8 @@
                     <a href="https://osf.io/s58qy/overview?view_only=b3d453cc9da948529022d5c131b71aa0"
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="pub-link">
+                        class="pub-link"
+                        data-i18n="publication-4-link">
                         Materiales reproducibles en Open Science Framework →
                     </a>
 
@@ -518,11 +591,11 @@
 
         <div class="container">
 
-            <h2>
+            <h2 data-i18n="career-title">
                 Trayectoria académica
             </h2>
 
-            <p>
+            <p data-i18n="career-intro">
                 Mi trabajo se sitúa en la intersección de la psicología social,
                 política y comunitaria, integrando investigación, docencia y
                 experiencia en políticas públicas para comprender cómo los
@@ -531,7 +604,8 @@
             </p>
 
 
-            <h3 class="exp-subtitle">
+            <h3 class="exp-subtitle"
+                data-i18n="education-title">
                 Formación
             </h3>
 
@@ -540,7 +614,7 @@
 
                 <div class="exp-header">
 
-                    <h4>
+                    <h4 data-i18n="education-phd">
                         Doctor en Psicología
                     </h4>
 
@@ -557,7 +631,7 @@
 
                 <div class="exp-header">
 
-                    <h4>
+                    <h4 data-i18n="education-master">
                         Magíster en Ciencias Sociales Aplicadas
                     </h4>
 
@@ -574,7 +648,7 @@
 
                 <div class="exp-header">
 
-                    <h4>
+                    <h4 data-i18n="education-psychologist">
                         Psicólogo
                     </h4>
 
@@ -587,7 +661,8 @@
             </div>
 
 
-            <h3 class="exp-subtitle">
+            <h3 class="exp-subtitle"
+                data-i18n="affiliation-title">
                 Afiliación académica
             </h3>
 
@@ -600,7 +675,8 @@
                         Universidad Santo Tomás
                     </h4>
 
-                    <p class="exp-institution">
+                    <p class="exp-institution"
+                        data-i18n="affiliation-school">
                         Facultad de Ciencias Sociales · Escuela de Psicología
                     </p>
 
@@ -622,12 +698,13 @@
 
         <div class="container">
 
-            <h2>
+            <h2 data-i18n="funding-title">
                 Financiamiento y experiencia en proyectos
             </h2>
 
 
-            <h3 class="exp-subtitle">
+            <h3 class="exp-subtitle"
+                data-i18n="scholarships-title">
                 Becas competitivas
             </h3>
 
@@ -636,11 +713,12 @@
 
                 <div class="exp-header">
 
-                    <h4>
+                    <h4 data-i18n="scholarship-1-title">
                         Beca de Doctorado Nacional
                     </h4>
 
-                    <p class="exp-institution">
+                    <p class="exp-institution"
+                        data-i18n="scholarship-1-institution">
                         Agencia Nacional de Investigación y Desarrollo
                         (ANID)
                     </p>
@@ -658,11 +736,12 @@
 
                 <div class="exp-header">
 
-                    <h4>
+                    <h4 data-i18n="scholarship-2-title">
                         Beca Doctoral
                     </h4>
 
-                    <p class="exp-institution">
+                    <p class="exp-institution"
+                        data-i18n="scholarship-2-institution">
                         Centro de Estudios de Conflicto y Cohesión Social
                         (COES)
                     </p>
@@ -680,7 +759,7 @@
 
                 <div class="exp-header">
 
-                    <h4>
+                    <h4 data-i18n="scholarship-3-title">
                         Beca de Posgrado
                     </h4>
 
@@ -706,7 +785,7 @@
 
                 <div class="exp-header">
 
-                    <h4>
+                    <h4 data-i18n="fondecyt-1-role">
                         Investigador doctoral
                     </h4>
 
@@ -720,13 +799,10 @@
 
                 </div>
 
-                <p>
-                    Participación en el proyecto
-                    <em>
-                        Consecuencias psicológicas de la participación en
-                        movimientos sociales
-                    </em>,
-                    Pontificia Universidad Católica de Chile.
+                <p data-i18n="fondecyt-1-description">
+                    Participación en el proyecto Consecuencias psicológicas de
+                    la participación en movimientos sociales, Pontificia
+                    Universidad Católica de Chile.
                 </p>
 
             </div>
@@ -736,7 +812,7 @@
 
                 <div class="exp-header">
 
-                    <h4>
+                    <h4 data-i18n="fondecyt-2-role">
                         Asistente de investigación
                     </h4>
 
@@ -750,7 +826,7 @@
 
                 </div>
 
-                <p>
+                <p data-i18n="fondecyt-2-description">
                     Participación en un proyecto sobre inclusión intercultural
                     en establecimientos escolares, Universidad de Tarapacá y
                     Universidad de Chile.
@@ -772,7 +848,7 @@
 
         <div class="container">
 
-            <h2>
+            <h2 data-i18n="teaching-resources-title">
                 Docencia y recursos
             </h2>
 
@@ -780,19 +856,31 @@
 
                 <div class="skill-category">
 
-                    <h3>
+                    <h3 data-i18n="teaching-areas-title">
                         Áreas docentes
                     </h3>
 
                     <ul>
-                        <li>Psicología social y comunitaria</li>
-                        <li>Metodología de la investigación</li>
-                        <li>Análisis de datos cuantitativos y cualitativos</li>
-                        <li>
+                        <li data-i18n="teaching-area-1">
+                            Psicología social y comunitaria
+                        </li>
+
+                        <li data-i18n="teaching-area-2">
+                            Metodología de la investigación
+                        </li>
+
+                        <li data-i18n="teaching-area-3">
+                            Análisis de datos cuantitativos y cualitativos
+                        </li>
+
+                        <li data-i18n="teaching-area-4">
                             Dirección y supervisión de proyectos de
                             investigación de pregrado
                         </li>
-                        <li>Evaluación de políticas públicas</li>
+
+                        <li data-i18n="teaching-area-5">
+                            Evaluación de políticas públicas
+                        </li>
                     </ul>
 
                 </div>
@@ -800,20 +888,20 @@
 
                 <div class="skill-category">
 
-                    <h3>
+                    <h3 data-i18n="university-experience-title">
                         Experiencia universitaria
                     </h3>
 
                     <ul>
-                        <li>
+                        <li data-i18n="university-1">
                             Universidad de Tarapacá, 2013–2017
                         </li>
 
-                        <li>
+                        <li data-i18n="university-2">
                             Universidad Santo Tomás, 2013–2017 y 2024–2026
                         </li>
 
-                        <li>
+                        <li data-i18n="university-3">
                             Universidad de Santiago de Chile, 2023
                         </li>
                     </ul>
@@ -823,21 +911,21 @@
 
                 <div class="skill-category">
 
-                    <h3>
+                    <h3 data-i18n="academic-resources-title">
                         Recursos académicos
                     </h3>
 
                     <ul>
-                        <li>
+                        <li data-i18n="resource-1">
                             Libro electrónico de metodología de la
                             investigación
                         </li>
 
-                        <li>
+                        <li data-i18n="resource-2">
                             Materiales reproducibles
                         </li>
 
-                        <li>
+                        <li data-i18n="resource-3">
                             Repositorios de código
                         </li>
                     </ul>
@@ -860,7 +948,7 @@
 
         <div class="container">
 
-            <h2>
+            <h2 data-i18n="public-service-title">
                 Experiencia en servicio público
             </h2>
 
@@ -869,11 +957,12 @@
 
                 <div class="exp-header">
 
-                    <h4>
+                    <h4 data-i18n="public-service-role-1">
                         Jefe de Gabinete
                     </h4>
 
-                    <p class="exp-institution">
+                    <p class="exp-institution"
+                        data-i18n="public-service-institution-1">
                         Secretaría Regional Ministerial de Gobierno de
                         Arica y Parinacota
                     </p>
@@ -884,7 +973,7 @@
 
                 </div>
 
-                <p>
+                <p data-i18n="public-service-description-1">
                     Coordinación de comunicación estratégica, fondos de medios
                     de comunicación social, Fondo de Fortalecimiento de
                     Organizaciones de Interés Público y División de
@@ -898,11 +987,12 @@
 
                 <div class="exp-header">
 
-                    <h4>
+                    <h4 data-i18n="public-service-role-2">
                         Jefe de Gabinete
                     </h4>
 
-                    <p class="exp-institution">
+                    <p class="exp-institution"
+                        data-i18n="public-service-institution-2">
                         Delegación Presidencial Regional de Arica y Parinacota
                     </p>
 
@@ -912,7 +1002,7 @@
 
                 </div>
 
-                <p>
+                <p data-i18n="public-service-description-2">
                     Coordinación interinstitucional e interministerial para la
                     implementación y el seguimiento de políticas públicas a
                     nivel regional.
@@ -925,18 +1015,19 @@
 
                 <div class="exp-header">
 
-                    <h4>
+                    <h4 data-i18n="public-service-role-3">
                         Coordinador comunal del Programa de Salud Mental
                     </h4>
 
-                    <p class="exp-institution">
+                    <p class="exp-institution"
+                        data-i18n="public-service-institution-3">
                         Municipalidad de Litueche · Dirección de Salud
                         Municipal
                     </p>
 
                 </div>
 
-                <p>
+                <p data-i18n="public-service-description-3">
                     Coordinación territorial e implementación comunal del
                     Programa de Salud Mental.
                 </p>
@@ -957,11 +1048,11 @@
 
         <div class="container">
 
-            <h2>
+            <h2 data-i18n="contact-title">
                 Contacto
             </h2>
 
-            <p>
+            <p data-i18n="contact-affiliation">
                 Escuela de Psicología, Universidad Santo Tomás.
             </p>
 
@@ -1052,7 +1143,9 @@
 
             <p>
                 &copy; 2026 Víctor Hugo Jiménez Benítez.
-                Portafolio académico.
+                <span data-i18n="footer-text">
+                    Portafolio académico.
+                </span>
             </p>
 
         </div>
@@ -1060,6 +1153,7 @@
     </footer>
 
 
+    <script src="translations.js"></script>
     <script src="script.js"></script>
 
 </body>
