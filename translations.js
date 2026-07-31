@@ -43,7 +43,7 @@ const translations = {
             "Perfil académico",
 
         "profile-text-1":
-            "Mi investigación analiza cómo las condiciones sociales, especialmente la inseguridad, la violencia y la desigualdad, influyen en las emociones, las cogniciones y los procesos comunitarios que explican el bienestar, la participación política, la acción colectiva y la cohesión social.",
+            "Mi investigación analiza cómo las condiciones estructurales y comunitarias, influyen en las emociones, las cogniciones y los procesos relacionales que explican el bienestar, la participación política, la acción colectiva y la cohesión social..",
 
         "profile-text-2":
             "Combino la psicología social, política y comunitaria con métodos cuantitativos avanzados para producir evidencia reproducible que contribuya al desarrollo teórico y al diseño de políticas públicas basadas en evidencia.",
