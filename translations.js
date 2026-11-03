@@ -2,6 +2,7 @@
 
 const translations = {
     "es": {
+        "nav-services": "Servicios y consultoría",
         "career-more": "Leer mi trayectoria profesional →",
         "career-home": "Volver al inicio",
         "recent-publications": "Publicaciones recientes",
@@ -123,6 +124,7 @@ const translations = {
         "delegation-followup": "Coordiné el Gabinete Regional y mesas intersectoriales, donde trabajé con autoridades regionales y provinciales, servicios públicos y actores privados. Realicé un seguimiento sistemático del avance de las iniciativas regionales y del cumplimiento de los compromisos institucionales."
     },
     "en": {
+        "nav-services": "Services and consulting",
         "career-more": "Read about my professional experience →",
         "career-home": "Back to home",
         "recent-publications": "Recent publications",
