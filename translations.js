@@ -1,652 +1,220 @@
 "use strict";
 
 const translations = {
-
-    /* =====================================================
-       ESPAÑOL
-       ===================================================== */
-
-    es: {
-
-        /* Navegación y accesibilidad */
-
-        "logo-aria": "Ir al inicio",
-        "language-selector-aria": "Selector de idioma",
-
-        "nav-home": "Inicio",
-        "nav-profile": "Perfil",
+    "es": {
+        "career-more": "Leer mi trayectoria profesional →",
+        "career-home": "Volver al inicio",
+        "recent-publications": "Publicaciones recientes",
+        "first-online-2025": "(en línea en 2025)",
         "nav-publications": "Publicaciones",
-        "nav-career": "Trayectoria",
         "nav-teaching": "Docencia",
-        "nav-public-service": "Servicio público",
         "nav-contact": "Contacto",
-
         "download-cv": "CV",
-
-
-        /* Presentación */
-
-        "hero-degree": "Doctor en Psicología",
-
-        "hero-role":
-            "Investigador en Psicología Social, Política y Comunitaria",
-
-        "hero-affiliation":
-            "Universidad Santo Tomás, Chile",
-
-        "hero-lines":
-            "Cambio social · Acción colectiva · Participación política · Bienestar · Métodos mixtos",
-
-        /* Perfil académico */
-
-        "profile-title":
-            "Perfil académico",
-
-        "profile-text-1":
-            "Mi investigación analiza cómo las condiciones estructurales y comunitarias, influyen en las emociones, las cogniciones y los procesos relacionales que explican el bienestar, la participación política, la acción colectiva y la cohesión social..",
-
-        "profile-text-2":
-            "Combino la psicología social, política y comunitaria con métodos cuantitativos avanzados para producir evidencia reproducible que contribuya al desarrollo teórico y al diseño de políticas públicas basadas en evidencia.",
-
-
-        /* Líneas de investigación */
-
-        "research-lines-title":
-            "Líneas de investigación",
-
-        "research-line-1-title":
-            "Cambio social",
-
-        "research-line-1-text":
-            "Creencias, emociones y procesos asociados con las transformaciones sociales.",
-
-        "research-line-2-title":
-            "Acción colectiva",
-
-        "research-line-2-text":
-            "Identidad, eficacia, emociones y participación colectiva.",
-
-        "research-line-3-title":
-            "Participación política",
-
-        "research-line-3-text":
-            "Activismo, participación electoral y compromiso político.",
-
-        "research-line-4-title":
-            "Bienestar",
-
-        "research-line-4-text":
-            "Condiciones sociales y comunitarias vinculadas con el bienestar psicológico y social.",
-
-        "research-line-5-title":
-            "Métodos mixtos",
-
-        "research-line-5-text":
-            "Integración de métodos cuantitativos y cualitativos.",
-
-
-        /* Indicadores académicos */
-
-        "indicators-title":
-            "Indicadores académicos",
-
-        "indicator-publications":
-            "Publicaciones científicas",
-
-        "indicator-fondecyt":
-            "Proyectos FONDECYT Regular",
-
-        "indicator-scholarships":
-            "Becas de posgrado",
-
-        "indicator-countries-number":
-            "4 países",
-
-        "indicator-countries":
-            "Estudios en América Latina",
-
-        "indicator-years-number":
-            "+10 años",
-
-        "indicator-years":
-            "Investigación científica y docencia universitaria",
-
-        "indicator-public-service-title":
-            "Servicio público",
-
-        "indicator-public-service":
-            "Experiencia en gestión regional y territorial",
-
-
-        /* Publicaciones */
-
-        "publications-title":
-            "Publicaciones destacadas",
-
-        "publications-intro":
-            "Una selección de artículos que reflejan las principales líneas de investigación desarrolladas durante los últimos años.",
-
-        "publications-scholar-prefix":
-            "Para consultar otras publicaciones, véase",
-
-        "publication-area-1":
-            "Cambio social, participación política y acción colectiva",
-
-        "publication-1-description":
-            "Estudio longitudinal sobre el papel mediador de las creencias de cambio social en la relación entre la acción colectiva y la participación electoral.",
-
-        "publication-1-keywords":
-            "Psicología política · Acción colectiva · Cambio social · Estudios longitudinales",
-
-        "view-publication":
-            "Ver publicación →",
-
-        "publication-2-status":
-            "Political Psychology · En revisión (R&R)",
-
-        "publication-2-description":
-            "Estudio multinacional realizado en Chile, Colombia, Ecuador y Perú que examina la acción colectiva mediante procesos emocionales, identitarios y de eficacia participativa.",
-
-        "publication-2-keywords":
-            "Psicología política · Comparación internacional · Modelos de ecuaciones estructurales",
-
-        "publication-area-2":
-            "Psicología comunitaria y procesos sociales",
-
-        "publication-3-description":
-            "Investigación cualitativa sobre el papel de las narrativas históricas en el compromiso colectivo y la participación política de jóvenes durante las movilizaciones iniciadas en Chile en 2019.",
-
-        "publication-3-keywords":
-            "Psicología comunitaria · Narrativas históricas · Acción colectiva",
-
-        "publication-4-status":
-            "Manuscrito en preparación",
-
-        "publication-4-description":
-            "Estudio sobre el papel del sentido de comunidad como mecanismo de integración, bienestar y cohesión social en población migrante residente en Chile.",
-
-        "publication-4-link":
-            "Materiales reproducibles en Open Science Framework →",
-
-
-        /* Trayectoria académica */
-
-        "career-title":
-            "Trayectoria académica",
-
-        "career-intro":
-            "Mi trabajo se sitúa en la intersección de la psicología social, política y comunitaria, integrando investigación, docencia y experiencia en políticas públicas para comprender cómo los contextos sociales influyen en las respuestas psicológicas individuales y comunitarias.",
-
-        "education-title":
-            "Formación",
-
-        "education-phd":
-            "Doctor en Psicología",
-
-        "education-master":
-            "Magíster en Ciencias Sociales Aplicadas",
-
-        "education-psychologist":
-            "Psicólogo",
-
-        "affiliation-title":
-            "Afiliación académica",
-
-        "affiliation-school":
-            "Facultad de Ciencias Sociales · Escuela de Psicología",
-
-
-        /* Financiamiento */
-
-        "funding-title":
-            "Financiamiento y experiencia en proyectos",
-
-        "scholarships-title":
-            "Becas competitivas",
-
-        "scholarship-1-title":
-            "Beca de Doctorado Nacional",
-
-        "scholarship-1-institution":
-            "Agencia Nacional de Investigación y Desarrollo (ANID)",
-
-        "scholarship-2-title":
-            "Beca Doctoral",
-
-        "scholarship-2-institution":
-            "Centro de Estudios de Conflicto y Cohesión Social (COES)",
-
-        "scholarship-3-title":
-            "Beca de Posgrado",
-
-        "fondecyt-1-role":
-            "Investigador doctoral",
-
-        "fondecyt-1-description":
-            "Participación en el proyecto Consecuencias psicológicas de la participación en movimientos sociales, Pontificia Universidad Católica de Chile.",
-
-        "fondecyt-2-role":
-            "Asistente de investigación",
-
-        "fondecyt-2-description":
-            "Participación en un proyecto sobre inclusión intercultural en establecimientos escolares, Universidad de Tarapacá y Universidad de Chile.",
-
-
-        /* Docencia */
-
-        "teaching-resources-title":
-            "Docencia y recursos",
-
-        "teaching-areas-title":
-            "Áreas docentes",
-
-        "teaching-area-1":
-            "Psicología social y comunitaria",
-
-        "teaching-area-2":
-            "Metodología de la investigación",
-
-        "teaching-area-3":
-            "Análisis de datos cuantitativos y cualitativos",
-
-        "teaching-area-4":
-            "Dirección y supervisión de proyectos de investigación de pregrado",
-
-        "teaching-area-5":
-            "Evaluación de políticas públicas",
-
-        "university-experience-title":
-            "Experiencia universitaria",
-
-        "university-1":
-            "Universidad de Tarapacá, 2013–2017",
-
-        "university-2":
-            "Universidad Santo Tomás, 2013–2017 y 2024–2026",
-
-        "university-3":
-            "Universidad de Santiago de Chile, 2023",
-
-        "academic-resources-title":
-            "Recursos académicos",
-
-        "resource-1":
-            "Libro electrónico de metodología de la investigación",
-
-        "resource-2":
-            "Materiales reproducibles",
-
-        "resource-3":
-            "Repositorios de código",
-
-
-        /* Servicio público */
-
-        "public-service-title":
-            "Experiencia en servicio público",
-
-        "public-service-role-1":
-            "Jefe de Gabinete",
-
-        "public-service-institution-1":
-            "Secretaría Regional Ministerial de Gobierno de Arica y Parinacota",
-
-        "public-service-description-1":
-            "Coordinación de comunicación estratégica, fondos de medios de comunicación social, Fondo de Fortalecimiento de Organizaciones de Interés Público y División de Organizaciones Sociales.",
-
-        "public-service-role-2":
-            "Jefe de Gabinete",
-
-        "public-service-institution-2":
-            "Delegación Presidencial Regional de Arica y Parinacota",
-
-        "public-service-description-2":
-            "Coordinación interinstitucional e interministerial para la implementación y el seguimiento de políticas públicas a nivel regional.",
-
-        "public-service-role-3":
-            "Coordinador comunal del Programa de Salud Mental",
-
-        "public-service-institution-3":
-            "Municipalidad de Litueche · Dirección de Salud Municipal",
-
-        "public-service-description-3":
-            "Coordinación territorial e implementación comunal del Programa de Salud Mental.",
-
-
-        /* Contacto y pie de página */
-
-        "contact-title":
-            "Contacto",
-
-        "contact-affiliation":
-            "Escuela de Psicología, Universidad Santo Tomás.",
-
-        "footer-text":
-            "Portafolio académico."
+        "contact-title": "Contacto",
+        "contact-affiliation": "Escuela de Psicología, Universidad Santo Tomás.",
+        "footer-text": "Portafolio académico.",
+        "bio": "Doctor en Psicología por la Pontificia Universidad Católica de Chile y magíster en Ciencias Sociales Aplicadas por la Universidad de Tarapacá. Mi trabajo combina docencia de pregrado, dirección de tesis, investigación colaborativa y formación metodológica. Mi experiencia en gestión regional se vincula con el estudio de las políticas públicas y las relaciones ciudadanía–Estado.",
+        "agenda0-title": "Acción colectiva y cambio social",
+        "agenda0-description": "Movilización, emociones políticas, identidad colectiva, creencias de cambio social y participación política.",
+        "agenda1-title": "Relaciones ciudadanía–Estado",
+        "agenda1-description": "Confianza institucional, cinismo político, legitimidad, justicia procedimental y cooperación ciudadana.",
+        "agenda2-title": "Seguridad, comunidad y bienestar",
+        "agenda2-description": "Victimización, percepción de inseguridad, sentido de comunidad y bienestar subjetivo.",
+        "agenda3-title": "Métodos y medición",
+        "agenda3-description": "Diseños longitudinales, análisis de panel y multinivel, ecuaciones estructurales, psicometría e invarianza, encuestas complejas, entrevistas, grupos focales y análisis temático.",
+        "agenda4-title": "Herramientas y reproducibilidad",
+        "agenda4-description": "R, Mplus, Stata, SPSS, Jamovi, NVivo, Quarto, R Markdown, LaTeX, GitHub, Zotero y Mendeley.",
+        "perfil-heading": "Perfil académico e investigador",
+        "pub0-title": "Historical narratives and collective action: Young people’s accounts of the October 2019 protests in Chile",
+        "pub0-description": "Figueroa-Grenett, C., Jiménez-Benítez, V., Jaque-Morales, F., Berríos, L., & Dufraix, I. (2026). Journal of Community & Applied Social Psychology, 36(1), e70205.",
+        "pub1-title": "From activism to the ballot box: Mediating role of social change beliefs over time",
+        "pub1-description": "Jiménez-Benítez, V., González, R., & Çakal, H. (2025). Frontiers in Social Psychology, 3, 1440638.",
+        "pub2-title": "Ideology and political cynicism: Effects of authoritarianism and social dominance on perceptions about the political system in 11 Ibero-American countries",
+        "pub2-description": "Espinosa, A., Pacheco, M., Janos, E., Acosta, Y., Álvarez-Galeano, E., Berenguer, J., Jiménez-Benítez, V., Lewis, H., Maric, M. L., Martínez, J., Riba, E., Romero, J. C., Sandoval, S., Valencia-Moya, J., & Vera-Ruíz, A. (2022). Revista Interamericana de Psicología, 56(2), e1465.",
+        "pub3-title": "From the struggle for education to the transformation of society: Challenges and hopes in the Chile of the 21st century",
+        "pub3-description": "Zapata-Sepúlveda, P., Jiménez-Benítez, V., & Concha-Astorga, D. (2013). Cultural Studies ↔ Critical Methodologies, 13(6), 497–503.",
+        "manuscripts": "Manuscritos en evaluación editorial y preparación",
+        "ms0-title": "Testing the Dual Chamber Model of Collective Action in Latin America: The Case of the 2019–2021 Protests in Chile, Ecuador, Peru, and Colombia",
+        "ms0-description": "Revisado y reenviado tras evaluación por pares. Pendiente de decisión editorial en Political Psychology.",
+        "ms1-title": "Beliefs About the Possibility of Social Change: Longitudinal Evidence From Chile, 2016–2023",
+        "ms1-description": "En preparación.",
+        "ms2-title": "Sense of Community in Migrant Populations: A Context-Sensitive Model From Latin American Migrants in Chile",
+        "ms2-description": "En preparación.",
+        "ms3-title": "Organizational Rituals as Collective Gatherings: Forms, Frequency, Psychosocial Processes, and Organizational Outcomes",
+        "ms3-description": "En preparación.",
+        "publicaciones-heading": "Publicaciones en revistas indexadas (WoS/Scopus)",
+        "degree0-title": "Doctor en Psicología · 2025",
+        "degree0-description": "Pontificia Universidad Católica de Chile. Tesis sobre acción colectiva, cinismo político, emociones y creencias de cambio social. Director Roberto González Gutiérrez.",
+        "degree1-title": "Magíster en Ciencias Sociales Aplicadas · 2018",
+        "degree1-description": "Universidad de Tarapacá.",
+        "degree2-title": "Psicólogo y Licenciado en Psicología · 2013",
+        "degree2-description": "Universidad de Tarapacá.",
+        "trayectoria-heading": "Formación académica",
+        "project0-title": "Investigación doctoral · 2019–2025",
+        "project0-description": "Pontificia Universidad Católica de Chile. Diseños longitudinales, datos de panel y ecuaciones estructurales para estudiar participación política y acción colectiva.",
+        "project1-title": "FONDECYT Regular N.º 1161371 · 2018–2019",
+        "project1-description": "Tesista de doctorado en la Pontificia Universidad Católica de Chile. Consecuencias psicológicas de la participación en movimientos sociales, revisión de literatura y mediación longitudinal.",
+        "project2-title": "FONDECYT Regular N.º 1160869 · 2016–2017",
+        "project2-description": "Tesista de magíster en un proyecto de la Universidad de Tarapacá y la Universidad de Chile sobre relaciones sociales entre estudiantes inmigrantes y chilenos en escuelas de Arica. Revisión bibliográfica, trabajo de campo y análisis cualitativo.",
+        "project3-title": "Beca de Doctorado Nacional ANID · 2019–2023",
+        "project3-description": "Agencia Nacional de Investigación y Desarrollo, Chile.",
+        "project4-title": "Beca Doctoral COES · 2018–2019",
+        "project4-description": "Centro de Estudios de Conflicto y Cohesión Social, Chile.",
+        "financiamiento-heading": "Proyectos de investigación y becas",
+        "teaching0-title": "Universidad Santo Tomás · Escuela de Psicología · 2024–2025",
+        "teaching0-description": "Análisis de Datos Cuantitativos, Proyecto de Investigación en Psicología y Seminario de Investigación en Psicología.",
+        "teaching1-title": "Dirección de tesis de pregrado · 2024–2025",
+        "teaching1-description": "Escuela de Psicología, Universidad Santo Tomás. 288 horas de supervisión: 72 en 2024-II, 72 en 2025-I y 144 en 2025-II.",
+        "teaching2-title": "Universidad Santo Tomás · Escuelas de Psicología y Trabajo Social · 2013–2017",
+        "teaching2-description": "Investigación Social Cuantitativa y Cualitativa, Diseño de Investigación, Seminario de Investigación, Problemas Sociales Contemporáneos y Pensamiento Social Moderno.",
+        "teaching3-title": "Universidad de Tarapacá · Escuela de Psicología y Filosofía · 2013–2017",
+        "teaching3-description": "Psicología Social I y II, Metodologías de Investigación Cualitativa e Intervención Comunitaria. Psicología Social en Ingeniería Comercial.",
+        "docencia-heading": "Docencia y dirección de tesis",
+        "public0-title": "Jefe de Gabinete · Delegación Presidencial Regional de Arica y Parinacota · oct. 2025–mar. 2026",
+        "public0-description": "Asesoría estratégica, gestión operativa y administrativa, coordinación del Gabinete Regional y de mesas intersectoriales, y seguimiento de prioridades gubernamentales e iniciativas territoriales. Supervisión de 29 funcionarios.",
+        "public1-title": "Jefe de Gabinete · Secretaría Regional Ministerial de Gobierno de Arica y Parinacota · mar. 2024–oct. 2025",
+        "public1-description": "Coordinación estratégica y operativa del gabinete, articulación con servicios públicos, municipios y organizaciones sociales, gestión de crisis y supervisión de 11 funcionarios.",
+        "servicio-publico-heading": "Gestión pública y vinculación territorial",
+        "skip": "Saltar al contenido",
+        "menu": "Menú",
+        "research": "Investigación",
+        "data": "Datos y código",
+        "discipline": "Psicología social, política y comunitaria",
+        "intro": "¿Qué nos mueve a votar, salir a la calle o cooperar con las instituciones? Investigo estas preguntas desde la psicología y las ciencias sociales. Mi experiencia en gestión pública nutre una pregunta científica que hoy guía mi trabajo: ¿en qué condiciones las respuestas del Estado frente a la inseguridad pública favorecen la cooperación con las autoridades y la organización comunitaria?",
+        "see-research": "Ver investigación",
+        "affiliation-label": "Afiliación académica",
+        "affiliation-detail": "Profesor adjunto · Escuela de Psicología",
+        "selected": "Investigación y publicaciones destacadas",
+        "project-status": "Proyecto FONDECYT Regular · Participación 2018–2019",
+        "featured-question": "¿Qué consecuencias psicológicas tiene participar en movimientos sociales?",
+        "project-link": "Leer la ficha del proyecto",
+        "publication-status": "Artículo publicado · 2025",
+        "featured-contribution": "El estudio longitudinal examina el papel de las creencias de cambio social en el vínculo entre la acción colectiva y la participación electoral.",
+        "article-link": "Leer el artículo en Frontiers in Social Psychology",
+        "osf": "Materiales reproducibles sobre sentido de comunidad en población migrante (OSF)",
+        "code-profile": "Perfil de GitHub",
+        "back": "Volver a investigación",
+        "project-title": "Consecuencias psicológicas de la participación en movimientos sociales",
+        "question-label": "Pregunta de investigación",
+        "role-label": "Participación en el proyecto",
+        "role-detail": "Participé como tesista de doctorado entre 2018 y 2019. Mi contribución incluyó revisión de literatura y análisis de mediación longitudinal con datos de panel.",
+        "biography": "Biografía",
+        "nav-career": "Trayectoria",
+        "career-heading": "Trayectoria en gestión, investigación y coordinación de equipos",
+        "career-summary": "Mi trayectoria se centra en la docencia en educación superior y la investigación científica en psicología social y política. Enseño y guío tesis, e investigo la participación política, la acción colectiva y las relaciones entre ciudadanía e instituciones. También he coordinado equipos en educación, salud municipal y gestión pública regional.",
+        "education": "Formación",
+        "education-phd": "Doctor en Psicología",
+        "education-ma": "Magíster en Ciencias Sociales Aplicadas",
+        "education-ba": "Psicólogo y Licenciado en Psicología",
+        "contact-heading": "Conversemos sobre investigación",
+        "contact-summary": "Para colaboraciones académicas, seminarios y consultas sobre mi trabajo."
     },
-
-
-    /* =====================================================
-       ENGLISH
-       ===================================================== */
-
-    en: {
-
-        /* Navigation and accessibility */
-
-        "logo-aria": "Go to homepage",
-        "language-selector-aria": "Language selector",
-
-        "nav-home": "Home",
-        "nav-profile": "Profile",
+    "en": {
+        "career-more": "Read about my professional experience →",
+        "career-home": "Back to home",
+        "recent-publications": "Recent publications",
+        "first-online-2025": "(online in 2025)",
         "nav-publications": "Publications",
-        "nav-career": "Academic career",
         "nav-teaching": "Teaching",
-        "nav-public-service": "Public service",
         "nav-contact": "Contact",
-
         "download-cv": "CV",
-
-
-        /* Hero section */
-
-        "hero-degree":
-            "PhD in Psychology",
-
-        "hero-role":
-            "Researcher in Social, Political, and Community Psychology",
-
-        "hero-affiliation":
-            "Universidad Santo Tomás, Chile",
-
-        "hero-lines":
-            "Social change · Collective action · Political participation · Well-being · Mixed methods",
-
-        /* Academic profile */
-
-        "profile-title":
-            "Academic profile",
-
-        "profile-text-1":
-            "My research examines how social conditions, particularly insecurity, violence, and inequality, influence the emotions, cognitions, and community processes underlying well-being, political participation, collective action, and social cohesion.",
-
-        "profile-text-2":
-            "I combine social, political, and community psychology with advanced quantitative methods to produce reproducible evidence that contributes to theoretical development and evidence-based public policy design.",
-
-
-        /* Research areas */
-
-        "research-lines-title":
-            "Research areas",
-
-        "research-line-1-title":
-            "Social change",
-
-        "research-line-1-text":
-            "Beliefs, emotions, and processes associated with social transformations.",
-
-        "research-line-2-title":
-            "Collective action",
-
-        "research-line-2-text":
-            "Identity, efficacy, emotions, and collective participation.",
-
-        "research-line-3-title":
-            "Political participation",
-
-        "research-line-3-text":
-            "Activism, electoral participation, and political engagement.",
-
-        "research-line-4-title":
-            "Well-being",
-
-        "research-line-4-text":
-            "Social and community conditions associated with psychological and social well-being.",
-
-        "research-line-5-title":
-            "Mixed methods",
-
-        "research-line-5-text":
-            "Integration of quantitative and qualitative methods.",
-
-
-        /* Academic indicators */
-
-        "indicators-title":
-            "Academic indicators",
-
-        "indicator-publications":
-            "Scientific publications",
-
-        "indicator-fondecyt":
-            "FONDECYT Regular projects",
-
-        "indicator-scholarships":
-            "Graduate scholarships",
-
-        "indicator-countries-number":
-            "4 countries",
-
-        "indicator-countries":
-            "Studies conducted in Latin America",
-
-        "indicator-years-number":
-            "10+ years",
-
-        "indicator-years":
-            "Scientific research and university teaching",
-
-        "indicator-public-service-title":
-            "Public service",
-
-        "indicator-public-service":
-            "Experience in regional and territorial management",
-
-
-        /* Publications */
-
-        "publications-title":
-            "Selected publications",
-
-        "publications-intro":
-            "A selection of articles reflecting the main research areas developed over recent years.",
-
-        "publications-scholar-prefix":
-            "For additional publications, see",
-
-        "publication-area-1":
-            "Social change, political participation, and collective action",
-
-        "publication-1-description":
-            "A longitudinal study examining the mediating role of social change beliefs in the relationship between collective action and electoral participation.",
-
-        "publication-1-keywords":
-            "Political psychology · Collective action · Social change · Longitudinal studies",
-
-        "view-publication":
-            "View publication →",
-
-        "publication-2-status":
-            "Political Psychology · Revise and resubmit (R&R)",
-
-        "publication-2-description":
-            "A multinational study conducted in Chile, Colombia, Ecuador, and Peru examining collective action through emotional, identity-based, and participative efficacy processes.",
-
-        "publication-2-keywords":
-            "Political psychology · Cross-national comparison · Structural equation modeling",
-
-        "publication-area-2":
-            "Community psychology and social processes",
-
-        "publication-3-description":
-            "A qualitative study examining the role of historical narratives in young people's collective engagement and political participation during the protests that began in Chile in 2019.",
-
-        "publication-3-keywords":
-            "Community psychology · Historical narratives · Collective action",
-
-        "publication-4-status":
-            "Manuscript in preparation",
-
-        "publication-4-description":
-            "A study examining sense of community as a mechanism of integration, well-being, and social cohesion among migrant populations living in Chile.",
-
-        "publication-4-link":
-            "Reproducible materials on the Open Science Framework →",
-
-
-        /* Academic career */
-
-        "career-title":
-            "Academic career",
-
-        "career-intro":
-            "My work lies at the intersection of social, political, and community psychology, integrating research, teaching, and public policy experience to understand how social contexts influence individual and community psychological responses.",
-
-        "education-title":
-            "Education",
-
-        "education-phd":
-            "PhD in Psychology",
-
-        "education-master":
-            "Master's Degree in Applied Social Sciences",
-
-        "education-psychologist":
-            "Psychologist",
-
-        "affiliation-title":
-            "Academic affiliation",
-
-        "affiliation-school":
-            "Faculty of Social Sciences · School of Psychology",
-
-
-        /* Funding */
-
-        "funding-title":
-            "Funding and project experience",
-
-        "scholarships-title":
-            "Competitive scholarships",
-
-        "scholarship-1-title":
-            "National Doctoral Scholarship",
-
-        "scholarship-1-institution":
-            "National Agency for Research and Development (ANID)",
-
-        "scholarship-2-title":
-            "Doctoral Scholarship",
-
-        "scholarship-2-institution":
-            "Centre for Social Conflict and Cohesion Studies (COES)",
-
-        "scholarship-3-title":
-            "Graduate Scholarship",
-
-        "fondecyt-1-role":
-            "Doctoral researcher",
-
-        "fondecyt-1-description":
-            "Participation in the project Psychological consequences of participation in social movements, Pontificia Universidad Católica de Chile.",
-
-        "fondecyt-2-role":
-            "Research assistant",
-
-        "fondecyt-2-description":
-            "Participation in a project on intercultural inclusion in schools, Universidad de Tarapacá and Universidad de Chile.",
-
-
-        /* Teaching */
-
-        "teaching-resources-title":
-            "Teaching and resources",
-
-        "teaching-areas-title":
-            "Teaching areas",
-
-        "teaching-area-1":
-            "Social and community psychology",
-
-        "teaching-area-2":
-            "Research methodology",
-
-        "teaching-area-3":
-            "Quantitative and qualitative data analysis",
-
-        "teaching-area-4":
-            "Supervision of undergraduate research projects",
-
-        "teaching-area-5":
-            "Public policy evaluation",
-
-        "university-experience-title":
-            "University teaching experience",
-
-        "university-1":
-            "Universidad de Tarapacá, 2013–2017",
-
-        "university-2":
-            "Universidad Santo Tomás, 2013–2017 and 2024–2026",
-
-        "university-3":
-            "Universidad de Santiago de Chile, 2023",
-
-        "academic-resources-title":
-            "Academic resources",
-
-        "resource-1":
-            "Digital textbook on research methodology",
-
-        "resource-2":
-            "Reproducible research materials",
-
-        "resource-3":
-            "Code repositories",
-
-
-        /* Public service */
-
-        "public-service-title":
-            "Public service experience",
-
-        "public-service-role-1":
-            "Chief of Staff",
-
-        "public-service-institution-1":
-            "Regional Secretariat of the Ministry General Secretariat of Government, Arica and Parinacota",
-
-        "public-service-description-1":
-            "Coordination of strategic communication, media funding programs, the Fund for Strengthening Public Interest Organizations, and the Social Organizations Division.",
-
-        "public-service-role-2":
-            "Chief of Staff",
-
-        "public-service-institution-2":
-            "Regional Presidential Delegation of Arica and Parinacota",
-
-        "public-service-description-2":
-            "Interinstitutional and interministerial coordination for the implementation and monitoring of public policies at the regional level.",
-
-        "public-service-role-3":
-            "Municipal Mental Health Program Coordinator",
-
-        "public-service-institution-3":
-            "Municipality of Litueche · Municipal Health Department",
-
-        "public-service-description-3":
-            "Territorial coordination and municipal implementation of the Mental Health Program.",
-
-
-        /* Contact and footer */
-
-        "contact-title":
-            "Contact",
-
-        "contact-affiliation":
-            "School of Psychology, Universidad Santo Tomás.",
-
-        "footer-text":
-            "Academic portfolio."
+        "contact-title": "Contact",
+        "contact-affiliation": "School of Psychology, Universidad Santo Tomás.",
+        "footer-text": "Academic portfolio.",
+        "bio": "I hold a PhD in Psychology from Pontificia Universidad Católica de Chile and a master’s degree in Applied Social Sciences from Universidad de Tarapacá. My work combines undergraduate teaching, thesis supervision, collaborative research, and methods training. My experience in regional government informs my work on public policy and citizen–state relations.",
+        "agenda0-title": "Collective action and social change",
+        "agenda0-description": "Mobilization, political emotions, collective identity, social change beliefs, and political participation.",
+        "agenda1-title": "Citizen–state relations",
+        "agenda1-description": "Institutional trust, political cynicism, legitimacy, procedural justice, and citizen cooperation.",
+        "agenda2-title": "Safety, community, and well-being",
+        "agenda2-description": "Victimization, perceived insecurity, sense of community, and subjective well-being.",
+        "agenda3-title": "Methods and measurement",
+        "agenda3-description": "Longitudinal designs, panel and multilevel analysis, structural equation modeling, psychometrics and invariance, complex surveys, interviews, focus groups, and thematic analysis.",
+        "agenda4-title": "Tools and reproducibility",
+        "agenda4-description": "R, Mplus, Stata, SPSS, Jamovi, NVivo, Quarto, R Markdown, LaTeX, GitHub, Zotero, and Mendeley.",
+        "perfil-heading": "Academic and research profile",
+        "pub0-title": "Historical narratives and collective action: Young people’s accounts of the October 2019 protests in Chile",
+        "pub0-description": "Figueroa-Grenett, C., Jiménez-Benítez, V., Jaque-Morales, F., Berríos, L., & Dufraix, I. (2026). Journal of Community & Applied Social Psychology, 36(1), e70205.",
+        "pub1-title": "From activism to the ballot box: Mediating role of social change beliefs over time",
+        "pub1-description": "Jiménez-Benítez, V., González, R., & Çakal, H. (2025). Frontiers in Social Psychology, 3, 1440638.",
+        "pub2-title": "Ideology and political cynicism: Effects of authoritarianism and social dominance on perceptions about the political system in 11 Ibero-American countries",
+        "pub2-description": "Espinosa, A., Pacheco, M., Janos, E., Acosta, Y., Álvarez-Galeano, E., Berenguer, J., Jiménez-Benítez, V., Lewis, H., Maric, M. L., Martínez, J., Riba, E., Romero, J. C., Sandoval, S., Valencia-Moya, J., & Vera-Ruíz, A. (2022). Revista Interamericana de Psicología, 56(2), e1465.",
+        "pub3-title": "From the struggle for education to the transformation of society: Challenges and hopes in the Chile of the 21st century",
+        "pub3-description": "Zapata-Sepúlveda, P., Jiménez-Benítez, V., & Concha-Astorga, D. (2013). Cultural Studies ↔ Critical Methodologies, 13(6), 497–503.",
+        "manuscripts": "Manuscripts under review and in preparation",
+        "ms0-title": "Testing the Dual Chamber Model of Collective Action in Latin America: The Case of the 2019–2021 Protests in Chile, Ecuador, Peru, and Colombia",
+        "ms0-description": "Revised and resubmitted after peer review. Editorial decision pending at Political Psychology.",
+        "ms1-title": "Beliefs About the Possibility of Social Change: Longitudinal Evidence From Chile, 2016–2023",
+        "ms1-description": "In preparation.",
+        "ms2-title": "Sense of Community in Migrant Populations: A Context-Sensitive Model From Latin American Migrants in Chile",
+        "ms2-description": "In preparation.",
+        "ms3-title": "Organizational Rituals as Collective Gatherings: Forms, Frequency, Psychosocial Processes, and Organizational Outcomes",
+        "ms3-description": "In preparation.",
+        "publicaciones-heading": "Publications in indexed journals (WoS/Scopus)",
+        "degree0-title": "PhD in Psychology · 2025",
+        "degree0-description": "Pontificia Universidad Católica de Chile. Dissertation on collective action, political cynicism, emotions, and social change beliefs. Advisor Roberto González Gutiérrez.",
+        "degree1-title": "Master’s in Applied Social Sciences · 2018",
+        "degree1-description": "Universidad de Tarapacá.",
+        "degree2-title": "Professional degree and licentiate in Psychology · 2013",
+        "degree2-description": "Universidad de Tarapacá.",
+        "trayectoria-heading": "Education",
+        "project0-title": "Doctoral research · 2019–2025",
+        "project0-description": "Pontificia Universidad Católica de Chile. Longitudinal designs, panel data, and structural equation modeling to study political participation and collective action.",
+        "project1-title": "FONDECYT Regular No. 1161371 · 2018–2019",
+        "project1-description": "Doctoral thesis researcher at Pontificia Universidad Católica de Chile. Psychological consequences of participation in social movements, literature review, and longitudinal mediation.",
+        "project2-title": "FONDECYT Regular No. 1160869 · 2016–2017",
+        "project2-description": "Master’s thesis researcher in a Universidad de Tarapacá and Universidad de Chile project on social relations between immigrant and Chilean students in Arica schools. Literature review, fieldwork, and qualitative analysis.",
+        "project3-title": "ANID National Doctoral Fellowship · 2019–2023",
+        "project3-description": "National Research and Development Agency, Chile.",
+        "project4-title": "COES Doctoral Fellowship · 2018–2019",
+        "project4-description": "Centre for Social Conflict and Cohesion Studies, Chile.",
+        "financiamiento-heading": "Research projects and fellowships",
+        "teaching0-title": "Universidad Santo Tomás · School of Psychology · 2024–2025",
+        "teaching0-description": "Quantitative Data Analysis, Psychology Research Project, and Psychology Research Seminar.",
+        "teaching1-title": "Undergraduate thesis supervision · 2024–2025",
+        "teaching1-description": "School of Psychology, Universidad Santo Tomás. 288 hours of supervision: 72 in 2024-II, 72 in 2025-I, and 144 in 2025-II.",
+        "teaching2-title": "Universidad Santo Tomás · Schools of Psychology and Social Work · 2013–2017",
+        "teaching2-description": "Quantitative and Qualitative Social Research, Research Design, Research Seminar, Contemporary Social Problems, and Modern Social Thought.",
+        "teaching3-title": "Universidad de Tarapacá · School of Psychology and Philosophy · 2013–2017",
+        "teaching3-description": "Social Psychology I and II, Qualitative Research Methods, and Community Intervention. Social Psychology for business students.",
+        "docencia-heading": "Teaching and thesis supervision",
+        "public0-title": "Chief of Staff · Regional Presidential Delegation of Arica and Parinacota · Oct 2025–Mar 2026",
+        "public0-description": "Strategic advice, operational and administrative management, coordination of the regional cabinet and cross-sector working groups, and monitoring of government priorities and regional initiatives. Supervision of 29 staff members.",
+        "public1-title": "Chief of Staff · Regional Ministerial Secretariat of Government of Arica and Parinacota · Mar 2024–Oct 2025",
+        "public1-description": "Strategic and operational cabinet coordination, liaison with public agencies, municipalities, and community organizations, crisis management, and supervision of 11 staff members.",
+        "servicio-publico-heading": "Public administration and community engagement",
+        "skip": "Skip to content",
+        "menu": "Menu",
+        "research": "Research",
+        "data": "Data and code",
+        "discipline": "Social, political, and community psychology",
+        "intro": "What motivates us to vote, take to the streets, or cooperate with institutions? I study these questions through psychology and the social sciences. My experience in public administration informs a research question that now guides my work: under what conditions do state responses to public insecurity foster cooperation with authorities and community organizing?",
+        "see-research": "Explore my research",
+        "affiliation-label": "Academic affiliation",
+        "affiliation-detail": "Adjunct professor · School of Psychology",
+        "selected": "Featured research and publications",
+        "project-status": "FONDECYT Regular project · Participation 2018–2019",
+        "featured-question": "What are the psychological consequences of participating in social movements?",
+        "project-link": "Read the project profile",
+        "publication-status": "Published article · 2025",
+        "featured-contribution": "The longitudinal study examines how social change beliefs relate to the link between collective action and electoral participation.",
+        "article-link": "Read the article in Frontiers in Social Psychology",
+        "osf": "Reproducible materials on sense of community among migrants (OSF)",
+        "code-profile": "GitHub profile",
+        "back": "Back to research",
+        "project-title": "Psychological consequences of participation in social movements",
+        "question-label": "Research question",
+        "role-label": "My role in the project",
+        "role-detail": "I participated as a doctoral thesis researcher from 2018 to 2019. I contributed a literature review and longitudinal mediation analysis using panel data.",
+        "biography": "Biography",
+        "nav-career": "Career",
+        "career-heading": "Experience in management, research, and team coordination",
+        "career-summary": "My career centers on higher education teaching and scientific research in social and political psychology. I teach and supervise theses, and study political participation, collective action, and citizen–institution relations. I have also coordinated teams in education, municipal health, and regional government.",
+        "education": "Education",
+        "education-phd": "PhD in Psychology",
+        "education-ma": "Master’s in Applied Social Sciences",
+        "education-ba": "Professional degree and licentiate in Psychology",
+        "contact-heading": "Let’s talk about research",
+        "contact-summary": "For academic collaborations, seminars, and questions about my work."
     }
 };
