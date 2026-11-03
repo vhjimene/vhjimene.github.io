@@ -106,7 +106,7 @@ const translations = {
         "education-phd": "Doctor en Psicología",
         "education-ma": "Magíster en Ciencias Sociales Aplicadas",
         "education-ba": "Psicólogo y Licenciado en Psicología",
-        "contact-heading": "Conversemos sobre investigación",
+        "contact-heading": "Conversemos sobre tu proyecto",
         "contact-summary": "Para colaboraciones académicas, seminarios y consultas sobre mi trabajo."
     },
     "en": {
@@ -214,7 +214,7 @@ const translations = {
         "education-phd": "PhD in Psychology",
         "education-ma": "Master’s in Applied Social Sciences",
         "education-ba": "Professional degree and licentiate in Psychology",
-        "contact-heading": "Let’s talk about research",
+        "contact-heading": "Let’s talk about your project",
         "contact-summary": "For academic collaborations, seminars, and questions about my work."
     }
 };
