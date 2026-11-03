@@ -78,6 +78,7 @@ main > section:not(.hero):not(.selected) > .container { border-top: 1px solid va
 .biography .affiliation { margin-top: 1.6rem; }
 .career-row, .contact-row { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: clamp(1rem, 4vw, 3rem); padding-block: 1.4rem; }
 .career-row { border-top: 1px solid var(--rule); }
+.career-row h2 { font-size: clamp(1.4rem, 2.1vw, 1.95rem); }
 .education-list { list-style: none; padding: 0; margin: 0; font-size: .9rem; }
 .education-list li { display: grid; grid-template-columns: 3rem 1fr; margin-bottom: .35rem; }
 .education-list time { color: var(--accent); }
